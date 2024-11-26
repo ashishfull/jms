@@ -1,4 +1,4 @@
-# JMS Publisher-Subscriber Example
+# JMS Point-to-Point and Publisher-Subscriber Example
 
 This project demonstrates a **Publisher-Subscriber messaging pattern** using **Java Message Service (JMS)** with **WebLogic Server**. The example includes a **publisher** that sends messages to a topic and a **subscriber** that consumes messages asynchronously.
 
