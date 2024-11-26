@@ -36,15 +36,21 @@ This project demonstrates a **Publisher-Subscriber messaging pattern** using **J
 
 #### 1. **Build the Project**
 Use Maven to build the project:
+```bash
 mvn clean install
+```
 
 #### 2. **Run the Publisher**
 Execute the Publisher to send a message to the topic:
-java -cp target/JMSApp-1.0-SNAPSHOT.jar com.example.jms.JMSTopicPublisher
+```bash
+Run as Java Application 
+```
 
 #### 3. **Run the Subscriber**
 Execute the Subscriber to consume messages from the topic:
-java -cp target/JMSApp-1.0-SNAPSHOT.jar com.example.jms.JMSTopicSubscriber
+```bash
+Run as Java Application 
+```
 
 ## Project Structure
 ```bash
@@ -72,20 +78,31 @@ JMSApp
 ## Example Outputs
 
 ### Publisher Output:
+```css
     Message sent to topic: Hello Subscribers!
+```
 ### Subscriber Output:
+```css
     Waiting for messages from topic...
     Received message: Hello Subscribers!
+```
 ### Object Producer Output:
+```css
     Message sent successfully!
+```
 ### Object Consumer Output:
+```css
     Received Employee: Employee[id=1, name=Ashish Rai, phoneNumber=70200xxx95]
+```
 ### Text Producer Output:
+```css
     TextMessage sent: Hello from JMS!
+```
 ### Text Consumer Output:
+```css
     Waiting for messages...
     Received TextMessage: Hello from JMS!
-
+```
 ## Version
 ```yaml
 This version is compact, clean, and easy to copy-paste directly into your project. Let me know if you need any tweaks! 😊
