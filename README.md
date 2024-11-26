@@ -47,6 +47,7 @@ Execute the Subscriber to consume messages from the topic:
 java -cp target/JMSApp-1.0-SNAPSHOT.jar com.example.jms.JMSTopicSubscriber
 
 ## Project Structure
+```bash
 JMSApp
 ├───src
   ├───main
@@ -66,7 +67,7 @@ JMSApp
                       └───publisher_subscriber
                               JMSTopicPublisher.java
                               JMSTopicSubscriber.java
-
+```
 
 ## Example Outputs
 
