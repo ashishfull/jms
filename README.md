@@ -87,7 +87,9 @@ JMSApp
     Received TextMessage: Hello from JMS!
 
 ## Version
+```yaml
 This version is compact, clean, and easy to copy-paste directly into your project. Let me know if you need any tweaks! 😊
+```
 
 
 
